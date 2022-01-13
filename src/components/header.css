@@ -31,7 +31,7 @@
 
 .navbar-menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(3, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -53,7 +53,7 @@
   transition: all 0.2s ease-out;
 }
 
-.navbar-link-mobile {
+.navbar-link-profile {
   color: #ffffff;
   background-color: #181223;
   text-decoration: none;
@@ -62,7 +62,7 @@
   cursor: pointer;
 }
 
-.navbar-link-mobile:hover {
+.navbar-link-profile:hover {
   background-color: #ffffff;
   color: rgb(219, 16, 16);
   transition: all 0.2s ease-out;
